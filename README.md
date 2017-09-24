@@ -2,6 +2,8 @@
 
 This is my first project made using Angular 2, which I am currently learning, Ionic Framework and Typescript so as to train my knowledge on that technologies.
 
+I have used the lateral menu template on this project.
+
 ## What about sleeping cycles?
 
 Well, you can read more about sleeping cycles on [this website](https://www.sleepcycle.com/how-it-works/).
