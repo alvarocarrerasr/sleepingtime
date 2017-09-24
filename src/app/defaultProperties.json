@@ -1,0 +1,5 @@
+{
+    "intervalLength":"90",
+    "timeToSleep":"15",
+    "numberOfIntervals":"5"
+}

@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Calculadora horas sueño</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <div class="card">
+    <div item item-divider>
+      <h5 padding>Hora actual {{ getCurrentTime().getTime() }}</h5>
+    </div>
+    <div padding item item-text-wrap>La calculadora de sueño te permite calcular cuándo te tienes que despertar para descansar bien y rendir al día siguiente.</div>
+    <div text-end><button ion-button (click)="performCalculations()">Refrescar</button></div>
+  </div>
+
+  <hr>
+  <div id="results">
+    <ion-list>
+      <div *ngFor="let calc of timeToWakeUp">
+        <div text-start text-lowercase padding><b>{{calc.getIntervalHours()}}</b></div>
+        <div text-end>
+          <h1>{{calc.getTime()}}</h1>
+        </div>
+        <hr>
+      </div>
+    </ion-list>
+  </div>
+</ion-content>

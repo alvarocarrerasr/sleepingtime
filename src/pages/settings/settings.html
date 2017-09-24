@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Configuración</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="card">Configuración de la aplicación. La configuración se guarda automáticamente</div>
+  <ion-list>
+    <div>
+      Número de intervalos a mostrar 
+      <input type="number" min="1" step="1" pattern="\d*" [(ngModel)]="numberOfIntervals" (change)="onNumberOfIntervals($event)"/>
+      <hr>
+    </div>
+    <div>
+      Tiempo para dormirse (en minutos)
+      <input type="number" min="1" step="1" pattern="\d*" [(ngModel)]="timeToSleep" (change)="onTimeToSleep($event)"/>
+      <hr>
+    </div>
+    <div>
+      Duración del intervalo (en minutos)
+      <input type="number" min="1" step="1" pattern="\d*" [(ngModel)]="intervalLength" (change)="onIntervalLength($event)"/>
+      <hr>
+    </div>
+  </ion-list>
+
+</ion-content>
