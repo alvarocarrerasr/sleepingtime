@@ -6,7 +6,7 @@ I have used the lateral menu template on this project.
 
 ## What about sleeping cycles?
 
-Well, you can read more about sleeping cycles on [this website](https://www.sleepcycle.com/how-it-works/).
+Well, you can read more about sleeping cycles on [this website](https://lifehacker.com/remember-the-90-minute-rule-to-ensure-a-refreshing-nigh-1551241082).
 
 
 ---
